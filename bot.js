@@ -11,7 +11,7 @@ setTimeout(() => {
     console.log(`[STARTUP] Successfully connected to MongoDB.`)
   })
   .catch(err => {
-    console.error(`[STARTUP] Couldn't connect to MongoDB.\n Error Message: ${err}`
+    console.error(`[STARTUP] Couldn't connect to MongoDB.\n Error Message: ${err}`)
   })
 }, 2500)
 
