@@ -36,3 +36,8 @@ module.exports.run = (bot, message, args) => {
   hook.send(opts)
   message.channel.send({embed: em})
 }
+
+
+module.exports.help = {
+  name: "send"
+}
