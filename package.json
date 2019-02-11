@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "discord.js": "latest",
+    "discord-hookclient": "latest",
+    "snekfetch": "latest"
+  }
+}
