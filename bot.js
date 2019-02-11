@@ -35,6 +35,8 @@ bot.on('ready', () => {
   bot.guilds.forEach((g,i) => {
     console.log(`[GUILD LISTINGS] Name: ${g.name} ID: [${i}] Members: ${g.memberCount}`)
   })
+  
+  bot.user.setActivity(`for h_help | ${bot.guilds.size} servers`, {type: "WATCHING"})
 })
 
 bot.on('message', message => {
