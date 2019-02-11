@@ -4,6 +4,7 @@ const discord = require('discord.js')
 const bot = new discord.Client()
 const disc = require('discord-hookclient')
 const mongoose = require('mongoose')
+global.embed = discord.RichEmbed
 console.log("[STARTUP] Connecting to MongoDB...")
 setTimeout(() => {
   mongoose.connect(`mongodb+srv://FHGDev:${process.env.mongo_pw}@hookbot-j78em.azure.mongodb.net/test?retryWrites=true`, { useNewUrlParser: true })
